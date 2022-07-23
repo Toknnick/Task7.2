@@ -63,6 +63,7 @@ namespace Task7._2
     class Prisioner
     {
         private NamesOfPrisioners _name;
+        
         public Crimes Crime { get; private set; }
 
         public Prisioner(NamesOfPrisioners name, Crimes crime)
